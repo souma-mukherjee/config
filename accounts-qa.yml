@@ -1,7 +1,7 @@
 build:
   version: 2.0
 account:
-  message: "Welcome to Account Service QA Environment"
+  message: "Hi Welcome to Account Service QA Environment"
   contact:
     name: "QA Team"
     email: "qa@example.com"
