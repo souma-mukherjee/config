@@ -1,0 +1,10 @@
+build:
+  version: 2.0
+card:
+  message: "Welcome to Card Service DEV Environment"
+  contact:
+    name: "DEV Team"
+    email: "dev@example.com"
+  phone:
+    - "9002130336"
+    - "9091227115"

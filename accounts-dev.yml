@@ -1,0 +1,10 @@
+build:
+  version: 3.0
+account:
+  message: "Welcome to Account Service Dev Environment"
+  contact:
+    name: "Dev Team"
+    email: "dev@example.com"
+  phone:
+    - "9002130336"
+    - "9593054290"

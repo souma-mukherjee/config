@@ -1,0 +1,30 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/account?currentSchema=account
+    driverClassName: org.postgresql.Driver
+    username: postgres
+    password: 12345
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  config:
+    import:
+      - "application-qa.yml"
+      - "application-dev.yml"
+  profiles:
+    active:
+      - "dev"
+build:
+  version: 1.0
+account:
+  message: "Welcome to Account Service"
+  contact:
+    name: "Dev Team"
+    email: "n9l7w@example.com"
+  phone:
+    - "1234567890"
+    - "0987654321"
