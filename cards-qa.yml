@@ -1,7 +1,7 @@
 build:
   version: 2.0
 card:
-  message: "Hey Welcome to Card Service QA Environment"
+  message: "Hey Welcome to Card Services QA Environment"
   contact:
     name: "QA Team"
     email: "{cipher}038a47178c541cf4d635623dd99622a894ed972a589cd3c3a890231f106f0ab1"
