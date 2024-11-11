@@ -1,0 +1,10 @@
+server:
+  port:8070
+eureka:
+  instance:
+    hostName:localhost
+  client:
+    fetchRegistry: false
+    registerWithEureka: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostName}:${server.port}/eureka
