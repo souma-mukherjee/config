@@ -1,6 +1,6 @@
 build:
   version: 1.0
-account:
+loan:
   message: "Welcome to Loan Service Dev Environment"
   contact:
     name: "Dev Team"
